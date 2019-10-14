@@ -1,1 +1,56 @@
-/* Enter your Styles below! */
+ body{
+
+	background-color:#f4f4f4f4;
+	color :#555555;
+	font-family: arial, helvetica, sans-serif;
+	font-size:16px;
+	overflow: hidden;
+
+ }
+
+
+.section {
+position: relative; 
+min-width: 100%;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: -1;
+
+}
+
+
+header { 
+	display: grid;
+	grid-template-columns: 20% 80%;
+ }
+
+h1 { 
+	font-size: 30px;
+}
+
+.box-1{
+	background-color: #333;
+	color:#fff;
+
+}
+a {text-decoration: none;}
+
+a:hover {color: grey;}
+
+nav ul { 
+	list-style-type: none; 
+	min-height: 100px;
+	background-color: antiquewhite;
+		
+}
+
+nav li { 
+text-transform:uppercase;
+padding: 16px;
+border:1px solid black;
+display: inline-block;
+
+ }
+
