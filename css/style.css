@@ -1,5 +1,3 @@
-a {text-decoration: none;}
-a:hover {color: grey;}
 a:visited { color: grey; }
 
 
@@ -10,12 +8,16 @@ a:visited { color: grey; }
 
 body{
 
-	background-color:#f4f4f4f4;
+	background-color:#FFFFFF;
 	color :#555555;
 	font-size:16px;
 	overflow: flex;
 	 }
+p {
 
+
+	font-size: 15px;
+}
 
 video {
 position: absolute; 
@@ -28,27 +30,36 @@ justify-content: center;
 
 header { 
 	font-family: gza;
-	display: flex;
-	background-color: #e6e8e8;
-	color : grey;
-	margin: .25px;
-    padding: .25px;
+	background-color: #transparent;
+	color : #FFC9AB;
+	
 }
 
 h1 { 
-	font-size: 40px;
+	font-size: 50px;
+	display: center;
+	align-items: center;
+	padding-left: 23px;
+
+
 }
 h2 { 
 	font-size: 40px;
-
+font-family: gza;
+	background-color: #transparent;
+	color : #FFC9AB;
 }
+
+/*navbar style guide */
+
 
 
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
+  font-size: 40px;
+  background-color: #transparent;
+  position: sticky; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
@@ -57,16 +68,17 @@ h2 {
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #FFC9AB;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 25px;
+
   text-decoration: none;
 }
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
-  color: black;
+  background: #CCAFA7;
+  color: #FFFFFF;
 }
 
 /* Main content */
