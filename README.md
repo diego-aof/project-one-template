@@ -25,4 +25,7 @@ This is the template repository for the first major project in the Design 341 cl
 
 
 
+
+Images property of sofia coppola. They are screenshots from heru movie. 
+
  
